@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.resumeapp.WorkHistoryActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work History"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="• Responsible for the tedious data migration and organization of content from a legacy web based system to a new customer portal built on WordPress platform.  • Assist with data migration and development of a new customer portal. • Making regular updates and changes to the web templates. • Provide technical support and training for Documentation Team. • Develop, implement and provide support for customizing Plug-ins and Theme based on Company Requirement. • Responsible for making critical decisions in the absence of higher authority,manager and often required customization of website depends on different teams’ request • Generate reports from Database based on Customer usage and company requirement. • Responsible for tracking data and optimizing website. • Manage authentication at the user and group level. • Responsible for the tedious data migration and organization of content from a legacy web based system to a new customer portal built on WordPress platform.  • Assist with data migration and development of a new customer portal. • Making regular updates and changes to the web templates. • Provide technical support and training for Documentation Team. • Develop, implement and provide support for customizing Plug-ins and Theme based on Company Requirement. • Responsible for making critical decisions in the absence of higher authority,manager and often required customization of website depends on different teams’ request • Generate reports from Database based on Customer usage and company requirement. • Responsible for tracking data and optimizing website. • Manage authentication at the user and group level."
+                android:textAlignment="center"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
